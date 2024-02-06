@@ -1,0 +1,26 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .banner-titulo {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: var(--cor-vermelho);
+    font-weight: 700;
+  }
+  .banner-subtitulo {
+    margin-top: 0.3rem;
+    color: var(--cor-preto-azulado);
+    font-weight: 700;
+  }
+  .banner-texto {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-cinza-medio);
+  }
+  

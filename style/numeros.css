@@ -1,0 +1,36 @@
+
+/* SEÇÃO NUMEROS */
+
+.numeros {
+  padding: 1rem;
+}
+.numeros-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* flex-wrap: wrap;
+  column-gap: 20px; */
+  
+}
+/* .numeros-item {
+  flex: 0 0 calc(50% - 20px);
+  justify-content: center;
+  text-align: center; */
+
+.numeros-titulo {
+  color: var(--cor-vermelho);
+  font-size: 2rem;
+}
+.numeros-subtitulo {
+  font-size: 1rem;
+  color: var(--cor-preto-azulado);
+  font-weight: 600;
+}
+
+.numeros-texto {
+  font-size: 0.8rem;
+  color: var(--cor-cinza-medio);
+  font-weight: 500;
+}

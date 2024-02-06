@@ -1,0 +1,44 @@
+
+.rodape-secao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8fbff;
+   
+  }
+  
+  .rodape-titulo {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-preto-azulado);
+  }
+  
+  .rodape-paragrafo {
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--cor-cinza-medio);
+  }
+  
+  .rodape-pesquisa {
+    border: 1px solid var(--cor-cinza-claro);
+    border-radius: .3rem;
+    font-size: .8rem;
+  }
+  .rodape-botao {
+    padding: 0.5rem;
+    background-color: var(--cor-vermelho);
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--cor-branco);
+    text-decoration: none;
+    font-size: .875rem;
+    margin-left: 1rem;
+    
+  }
+  .rodape-texto {
+    font-size: .6rem;
+    color: var(--cor-cinza-clarinho);
+  }
+  

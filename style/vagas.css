@@ -1,0 +1,24 @@
+.vagas {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.vagas-titulo {
+    margin-top: 2rem;
+    font-size: .75rem;
+    color: var(--cor-vermelho);
+    font-weight: 600;
+}
+.vagas-subtitulo {
+    margin-top: .1rem;
+    font-size: 1.7rem;
+    color: var(--cor-preto-azulado);
+}
+.vagas-texto {
+    font-size: 1rem;
+    color: var(--cor-cinza-medio);
+    font-weight: 600;
+    margin-top: .1rem;
+    margin-bottom: 2rem;
+}

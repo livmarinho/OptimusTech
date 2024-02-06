@@ -1,0 +1,290 @@
+@media screen and (min-width: 1024px) {
+  .navbar-menu-hamburguer {
+    display: none;
+  }
+  .opcoes {
+    display: flex;
+  }
+  .opcoes-item {
+    display: flex;
+    list-style-type: none;
+  }
+  .opcoes-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--cor-cinza-medio);
+    font-size: 0.875rem;
+  }
+  .container-titulo {
+    font-size: 1.5rem;
+  }
+
+  /* BANNER */
+
+  .banner {
+    padding: 5rem;
+  }
+
+  .banner-titulo {
+    font-size: 1rem;
+  }
+  .banner-subtitulo {
+    font-size: 2.5rem;
+  }
+  .banner-texto {
+    font-size: 1.25rem;
+  }
+
+  /* NUMEROS */
+
+  .numeros {
+    padding: 0 2rem;
+  }
+
+  .numeros-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 1rem;
+  }
+  .numeros-item {
+    align-items: center;
+    text-align: center;
+  }
+
+  .numeros-titulo {
+    font-size: 3rem;
+  }
+
+  .numeros-subtitulo {
+    font-size: 1rem;
+  }
+
+  .numeros-texto {
+    font-size: 0.875rem;
+  }
+
+  /* VAGAS */
+
+  .vagas {
+    padding: 2rem;
+  }
+
+  .vagas-titulo {
+    margin-top: 5rem;
+    font-size: 0.875rem;
+  }
+  .vagas-subtitulo {
+    font-size: 2rem;
+  }
+
+  .vagas-texto {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  /* CATEGORIAS */
+  .vaga-emprego {
+    margin-top: 2rem;
+    padding: 0 12rem 0 12rem;
+    margin-bottom: 2rem;
+  }
+
+  /* DEPOIMENTOS */
+  .depoimentos-clientes {
+    background-color: #fff7f7;
+    padding: 2rem;
+  }
+
+  .depoimentos-titulo {
+    font-size: 1rem;
+  }
+
+  .depoismentos-subtitulo {
+    font-size: 1.5rem;
+  }
+
+  /* RODAPE */
+
+  .rodape-secao {
+    padding: 2rem;
+   
+  }
+
+  .rodape-titulo {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+  .rodape-paragrafo {
+    font-size: 1rem;
+    width: 100%;
+
+  }
+
+  .rodape-pesquisa {
+    border-radius: .3rem;
+    font-size: 1rem;
+    
+  }
+
+  .rodape-botao {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .rodape-texto {
+    font-size: .7rem;
+    width: 100%;
+
+
+}
+}
+
+@media screen and (min-width: 1728px) {
+  .navbar-menu-hamburguer {
+    display: none;
+  }
+  .opcoes {
+    display: flex;
+  }
+  .opcoes-item {
+    display: flex;
+    list-style-type: none;
+  }
+  .opcoes-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--cor-cinza-medio);
+    font-size: 1.2rem;
+  }
+  .container-titulo {
+    font-size: 2rem;
+  }
+
+  /* BANNER */
+
+  .banner {
+    padding: 10rem;
+  }
+
+  .banner-titulo {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .banner-subtitulo {
+    font-size: 3rem;
+  }
+  .banner-texto {
+    font-size: 1.8rem;
+  }
+
+  /* NUMEROS */
+
+  .numeros {
+    padding: 0 5rem 0 5rem;
+  }
+
+  .numeros-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  .numeros-item {
+    align-items: center;
+    text-align: center;
+  }
+
+  .numeros-titulo {
+    font-size: 5rem;
+  }
+
+  .numeros-subtitulo {
+    font-size: 1.5rem;
+  }
+
+  .numeros-texto {
+    font-size: 1rem;
+  }
+
+  /* VAGAS */
+
+  .vagas {
+    padding: 5rem;
+  }
+
+  .vagas-titulo {
+    margin-top: 5rem;
+    font-size: 1rem;
+  }
+  .vagas-subtitulo {
+    font-size: 2.5rem;
+  }
+
+  .vagas-texto {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+   /* CATEGORIAS */
+   .vaga-emprego {
+    margin-top: 2rem;
+    padding: 0 30rem 0 30rem;
+    margin-bottom: 2rem;
+  }
+
+   /* DEPOIMENTOS */
+
+   .depoimentos {
+   padding: 5rem;
+   }
+   .depoimentos-clientes {
+    background-color: #fff7f7;
+    padding: 3rem;
+  }
+
+  .depoimentos-titulo {
+    font-size: 1rem;
+  }
+
+  .depoismentos-subtitulo {
+    font-size: 2rem;
+  }
+
+  /* RODAPE */
+
+  .rodape-secao {
+    padding: 2rem;
+   
+  }
+
+  .rodape-titulo {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .rodape-paragrafo {
+    font-size: 1.2rem;
+    width: 100%;
+
+  }
+
+  .rodape-pesquisa {
+    border-radius: .3rem;
+    font-size: 1rem;
+    
+  }
+
+  .rodape-botao {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .rodape-texto {
+    font-size: 1rem;
+    width: 100%;
+}
+
+}

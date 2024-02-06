@@ -1,0 +1,328 @@
+
+@import url('./style/navbar.css');
+@import url('./style/banner.css');
+@import url('./style/numeros.css');
+@import url('./style/vagas.css');
+@import url('./style/categorias.css');
+@import url('./style/depoimentos.css');
+@import url('./style/rodape.css');
+@import url('./style/responsividade.css');
+
+:root {
+  --cor-cinza-escuro: #3a404e;
+  --cor-cinza-medio: #667085;
+  --cor-branco: #ffffff;
+  --cor-preto: #101828;
+  --cor-vermelho: #8e2424;
+  --cor-degrade: #c31919;
+  --cor-preto-azulado: #101828;
+  --cor-cinza-claro: #d0d5dd;
+  --cor-cinza-clarinho: #98a2b3;
+  --fonte-principal: "Inter", sans-serif;
+}
+
+
+body {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-branco);
+}
+
+/* NAVBAR */
+
+/* .navbar-menu-hamburguer {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("/img/Menu.svg");
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-botao:checked ~ .container-rotulo > .navbar-menu-hamburguer {
+  background-image: url("img/Menu\ Aberto.svg");
+}
+
+.container-botao:checked ~ .container-rotulo {
+  background: var(--cor-preto-azulado);
+}
+
+.navbar {
+  background-color: var(--cor-branco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container-img {
+  padding: 1rem;
+}
+
+.menu-lista {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+}
+
+.container-botao:checked ~ .menu-lista {
+  display: block;
+}
+
+.menu-lista-item {
+  background-color: var(--cor-branco);
+  padding: 1rem;
+}
+.menu-lista-link {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--cor-cinza-medio);
+}
+
+.container-titulo {
+  font-size: 1.125rem;
+}
+.container-botao {
+  display: none;
+}
+.opcoes-botao {
+  display: none;
+}
+
+.container-link {
+  color: var(--cor-cinza-medio);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.container-link-link {
+  color: var(--cor-branco);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container-btn {
+  padding: 0.5rem;
+  background-color: var(--cor-vermelho);
+  border-radius: 0.5rem;
+  border: none;
+} */
+
+/* SEÇÃO BANNER */
+
+/* .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.banner-titulo {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: var(--cor-vermelho);
+  font-weight: 700;
+}
+.banner-subtitulo {
+  margin-top: 0.3rem;
+  color: var(--cor-preto-azulado);
+  font-weight: 700;
+}
+.banner-texto {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--cor-cinza-medio);
+} */
+
+/* SEÇÃO NUMEROS */
+
+/* .numeros {
+  padding: 1rem;
+}
+.numeros-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.numeros-item {
+  flex: 0 0 calc(50% - 20px);
+  justify-content: center;
+  text-align: center;
+}
+
+.numeros-titulo {
+  color: var(--cor-vermelho);
+  font-size: 2rem;
+}
+.numeros-subtitulo {
+  font-size: 1rem;
+  color: var(--cor-preto-azulado);
+  font-weight: 600;
+}
+
+.numeros-texto {
+  font-size: 0.8rem;
+  color: var(--cor-cinza-medio);
+  font-weight: 500;
+} */
+
+/* SEÇÃO DE TELANTOS */
+/* .vagas {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.vagas-titulo {
+    margin-top: 2rem;
+    font-size: .75rem;
+    color: var(--cor-vermelho);
+    font-weight: 600;
+}
+.vagas-subtitulo {
+    margin-top: .1rem;
+    font-size: 1.7rem;
+    color: var(--cor-preto-azulado);
+}
+.vagas-texto {
+    font-size: 1rem;
+    color: var(--cor-cinza-medio);
+    font-weight: 600;
+    margin-top: .1rem;
+} */
+
+/* CATEGORIAS */
+
+/* .vaga-emprego {
+  padding: 0 3rem 1rem 3rem;
+  align-items: center;
+}
+
+.vaga-emprego-categoria {
+  font-size: 1.12rem;
+    font-weight: 700;
+    color: var(--cor-preto-azulado);
+}
+
+.informacoes {
+  border: 1px solid var(--cor-cinza-claro);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: .5rem;
+
+}
+
+.informacoes-titulo {
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cor-preto-azulado);
+}
+
+.informacoes-subtitulo {
+  font-size: .875rem;
+  font-weight: 600;
+  color: var(--cor-cinza-medio);
+
+}
+.informacoes-subtitulo-2 {
+  margin-left: 1rem;
+    font-size: .875rem;
+    font-weight: 600;
+    color: var(--cor-cinza-medio);
+} */
+
+/* DEPOIMENTOS */
+/* 
+.depoimentos {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.depoimentos-clientes {
+  background-color: #fff7f7;
+  padding: 1rem;
+}
+
+.depoimentos-titulo {
+  font-size: .6rem;
+  font-weight: 700;
+  color: var(--cor-vermelho);
+  
+}
+
+.depoismentos-subtitulo {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cor-preto);
+
+}
+.depoimentos-nome {
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--cor-preto-azulado);
+}
+
+.depoimentos-profissao {
+  font-size: .6rem;
+  font-weight: 400;
+  color: var(--cor-preto-azulado);
+} */
+
+/* RODAPE */
+
+/* 
+.rodape-secao {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: #f8fbff;
+ 
+}
+
+.rodape-titulo {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cor-preto-azulado);
+}
+
+.rodape-paragrafo {
+  font-size: .8rem;
+  font-weight: 500;
+  color: var(--cor-cinza-medio);
+}
+
+.rodape-pesquisa {
+  border: 1px solid var(--cor-cinza-claro);
+  border-radius: .3rem;
+  font-size: .8rem;
+}
+.rodape-botao {
+  padding: 0.5rem;
+  background-color: var(--cor-vermelho);
+  border-radius: 0.5rem;
+  border: none;
+  color: var(--cor-branco);
+  text-decoration: none;
+  font-size: .875rem;
+  margin-left: 1rem;
+  
+}
+.rodape-texto {
+  font-size: .6rem;
+  color: var(--cor-cinza-clarinho);
+} */
