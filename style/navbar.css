@@ -2,14 +2,14 @@
 .navbar-menu-hamburguer {
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url("/img/Menu.svg");
+    background-image: url("../img/Menu.svg");
     display: inline-block;
     background-position: center;
     background-repeat: no-repeat;
   }
   
   .container-botao:checked ~ .container-rotulo > .navbar-menu-hamburguer {
-    background-image: url("img/Menu\ Aberto.svg");
+    background-image: url("../img/Menu\ Aberto.svg");
   }
   
   .container-botao:checked ~ .container-rotulo {
